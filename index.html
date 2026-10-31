@@ -1,0 +1,677 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lior Rokach</title>
+<meta name="description" content="Lior Rokach, Professor of Artificial Intelligence at Ben-Gurion University of the Negev: machine learning, ensemble methods, AI in medicine, trustworthy and secure AI, recommender systems.">
+<meta name="author" content="Lior Rokach">
+<meta name="theme-color" content="#090e1d">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Prof. Lior Rokach">
+<meta property="og:description" content="Professor of Artificial Intelligence, Ben-Gurion University of the Negev. Member of the UN Independent International Scientific Panel on AI.">
+<meta property="og:image" content="assets/img/photos/portrait-2026-og.jpg">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>try{var t=localStorage.getItem("theme");if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Lior Rokach","jobTitle":"Professor of Artificial Intelligence","affiliation":{"@type":"CollegeOrUniversity","name":"Ben-Gurion University of the Negev"},"email":"mailto:liorrk@bgu.ac.il","sameAs":["https://scholar.google.com/citations?user=makfxEUAAAAJ","https://www.linkedin.com/in/liorrokach","https://he.wikipedia.org/wiki/%D7%9C%D7%99%D7%90%D7%95%D7%A8_%D7%A8%D7%95%D7%A7%D7%97"]}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Lior Rokach, home"><span class="brand-mark" aria-hidden="true">LR</span><span>Lior Rokach</span></a>
+    <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="nav" id="site-nav" aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#books">Books</a>
+      <a href="#publications">Publications</a>
+      <a href="#patents">Patents</a>
+      <a href="#lab">Lab</a>
+      <a href="#talks">Talks</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="icon-btn" id="theme-btn" type="button" aria-label="Switch theme">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+<!-- ===================== HERO ===================== -->
+<div class="hero" id="top">
+  <canvas id="net" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div>
+      <p class="eyebrow reveal">Professor of Artificial Intelligence &middot; Ben-Gurion University of the Negev</p>
+      <h1 class="reveal d1">Lior <span class="grad">Rokach</span></h1>
+      <p class="lede reveal d2">I develop machine-learning methods and apply them to healthcare, the security of AI systems, and the automation of scientific discovery.</p>
+      <ul class="roles reveal d3">
+        <li class="un">Member, UN Independent International Scientific Panel on AI (2026&ndash;2029)</li>
+        <li>Institute for Applied AI Research, Faculty of Computer and Information Science, BGU</li>
+        <li>Research Collaborator, Department of Hematology, Mayo Clinic</li>
+        <li>Founding Director, Center for Computational Criminology (BGU and Israel Police)</li>
+      </ul>
+      <div class="cta reveal d3">
+        <a class="btn btn-primary" href="#publications">Publications</a>
+        <a class="btn btn-ghost" href="https://scholar.google.com/citations?user=makfxEUAAAAJ" target="_blank" rel="noopener">Google Scholar
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+        <a class="btn btn-ghost" href="#contact">Contact</a>
+      </div>
+    </div>
+    <figure class="carousel reveal d2" id="carousel" aria-roledescription="carousel" aria-label="Photographs">
+      <div class="slides" id="slides">
+        <img class="slide is-active" src="assets/img/carousel/01-portrait-2026.jpg" width="1500" height="999" alt="Portrait of Lior Rokach, 2026" decoding="async">
+        <img class="slide" src="assets/img/carousel/13-negev.jpg" width="426" height="284" alt="Lior Rokach at his desk at Ben-Gurion University" decoding="async" aria-hidden="true">
+        <img class="slide contain" src="assets/img/carousel/03-data-science.jpg" width="500" height="265" alt="Word graphic: data science" loading="lazy" decoding="async" aria-hidden="true">
+        <img class="slide" src="assets/img/carousel/04-davos.jpg" width="1200" height="800" alt="Lior Rokach speaking at the World Economic Forum in Davos, 2018" loading="lazy" decoding="async" aria-hidden="true">
+        <img class="slide" src="assets/img/carousel/05-bgu-campus.jpg" width="750" height="500" alt="Ben-Gurion University of the Negev campus, Beer-Sheva" loading="lazy" decoding="async" aria-hidden="true">
+        <img class="slide contain" src="assets/img/carousel/06-deep-learning.jpg" width="500" height="300" alt="Word graphic: deep learning" loading="lazy" decoding="async" aria-hidden="true">
+        <img class="slide" src="assets/img/carousel/07-bgu-campus-2.jpg" width="515" height="387" alt="Ben-Gurion University campus with palm trees" loading="lazy" decoding="async" aria-hidden="true">
+        <img class="slide contain" src="assets/img/carousel/08-big-data.jpg" width="368" height="221" alt="Word graphic: big data" loading="lazy" decoding="async" aria-hidden="true">
+        <img class="slide" src="assets/img/carousel/09-lecture.jpg" width="398" height="247" alt="Lior Rokach giving a lecture" loading="lazy" decoding="async" aria-hidden="true">
+        <img class="slide" src="assets/img/carousel/10-conference.jpg" width="800" height="534" alt="Lior Rokach in conversation at a conference" loading="lazy" decoding="async" aria-hidden="true">
+        <img class="slide" src="assets/img/carousel/11-speaking.jpg" width="1200" height="830" alt="Lior Rokach speaking at a conference" loading="lazy" decoding="async" aria-hidden="true">
+        <img class="slide" src="assets/img/carousel/12-word-cloud.jpg" width="800" height="533" alt="Word cloud of research topics in the shape of a thumbs-up" loading="lazy" decoding="async" aria-hidden="true">
+        <img class="slide" src="assets/img/carousel/02-office.jpg" width="800" height="507" alt="Lior Rokach in the desert above the Dead Sea" loading="lazy" decoding="async" aria-hidden="true">
+        <img class="slide" src="assets/img/carousel/14-bgu-podium.jpg" width="1200" height="800" alt="Lior Rokach speaking at a Ben-Gurion University podium" loading="lazy" decoding="async" aria-hidden="true">
+      </div>
+      <div class="car-ui">
+        <button type="button" class="car-btn" id="car-prev" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></button>
+        <span class="car-count" id="car-count" aria-live="polite">1 / 14</span>
+        <div class="car-bar" aria-hidden="true"><span id="car-bar"></span></div>
+        <button type="button" class="car-btn" id="car-pause" aria-label="Pause slideshow"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg></button>
+        <button type="button" class="car-btn" id="car-next" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></button>
+      </div>
+    </figure>
+    <div class="stats" role="list">
+      <div class="stat" role="listitem"><b>400+</b><span>peer-reviewed papers</span></div>
+      <div class="stat" role="listitem"><b>33</b><span>Ph.D. graduates</span></div>
+      <div class="stat" role="listitem"><b>113</b><span>M.Sc. theses supervised</span></div>
+      <div class="stat" role="listitem"><b>22</b><span>granted patents</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== NEWS ===================== -->
+<section id="news" aria-labelledby="news-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">Recent</p>
+      <h2 id="news-h">News and highlights</h2>
+    </div>
+    <div class="news">
+      <article class="news-item feature">
+        <time datetime="2026-02-07">February 2026 &middot; Ynetnews</time>
+        <h3>Recommended by the UN Secretary-General for the global scientific panel on AI</h3>
+        <p>UN Secretary-General Ant&oacute;nio Guterres recommended Prof. Rokach for the new Independent International Scientific Panel on Artificial Intelligence, the first scientific body dedicated exclusively to AI. He is the only Israeli among the 40 members, who were chosen from more than 2,600 candidates in 140 countries. The panel prepares evidence-based assessments of the opportunities, risks and societal impact of AI.</p>
+        <a class="news-link" href="https://www.ynetnews.com/article/ska7swnvzl" target="_blank" rel="noopener">Read the article on Ynetnews ↗</a>
+      </article>
+      <article class="news-item">
+        <time datetime="2026-04-14">April 2026 &middot; The Jerusalem Post</time>
+        <h3>Op-ed: &ldquo;AI tsunami is here&rdquo;: Israel must invest in AI to stay competitive</h3>
+        <p>Writing as a member of the UN panel, Prof. Rokach separates AI safety from AI security, discusses the effect of AI on employment and inequality, and argues that Israel should invest heavily in AI education and training.</p>
+        <a class="news-link" href="https://www.jpost.com/jerusalem-report/article-892798" target="_blank" rel="noopener">Read the op-ed in The Jerusalem Post ↗</a>
+      </article>
+      <article class="news-item">
+        <time datetime="2026">2026 &middot; Ben-Gurion University</time>
+        <h3>BGU Award for Breakthrough Research</h3>
+        <p>Awarded by the Vice President and Dean for Research and Development for methods that improve the accuracy and stability of AI models.</p>
+      </article>
+      <article class="news-item">
+        <time datetime="2026">2026 &middot; New papers</time>
+        <h3>New papers on LLMs and clinical AI</h3>
+        <p>LongMem-RAT on cross-session red teaming of LLMs (EMNLP 2026 Findings), DFPE on diverse LLM ensembles (EACL 2026), and meta-learning for detecting atrial fibrillation after stroke (The Lancet Digital Health).</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ABOUT ===================== -->
+<section id="about" class="alt" aria-labelledby="about-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">Biography</p>
+      <h2 id="about-h">About</h2>
+    </div>
+    <div class="about">
+      <div class="prose">
+        <p>Lior Rokach is a Professor of Artificial Intelligence at the Institute for Applied AI Research, Faculty of Computer and Information Science, Ben-Gurion University of the Negev (BGU). His research group develops machine-learning algorithms and applies them to healthcare, cyber security and bioinformatics. In 2026, on the recommendation of the UN Secretary-General, he was elected one of the 40 members of the Independent International Scientific Panel on Artificial Intelligence. He is also a Research Collaborator in the Department of Hematology at the Mayo Clinic in Rochester, Minnesota.</p>
+        <p>He has published more than 400 peer-reviewed papers in journals, conference proceedings and edited volumes, and has written six books, several of them in more than one edition. These include <i>Data Mining with Decision Trees</i> (World Scientific, 2008; 2nd ed. 2015) and <i>Ensemble Learning: Pattern Classification Using Ensemble Methods</i> (World Scientific, 2010; 2nd ed. 2019). He co-edited the <i>Recommender Systems Handbook</i> (Springer, 2011, 2015, 2022) and <i>The Data Mining and Knowledge Discovery Handbook</i> (Springer, 2005, 2010; 3rd ed. 2023 as <i>Machine Learning for Data Science Handbook</i>). Three of his books have been translated into Chinese. A Stanford University study places him among the top 0.1% of AI researchers by career-long impact.</p>
+        <p>His main methodological contribution is in ensemble learning, recognized by BGU&rsquo;s Toronto Prize for Academic Excellence in Research (2012). He has also designed recommender systems deployed on large e-commerce sites that serve millions of users. Papers he advised and co-authored received the Best Research Paper Award at ACM CIKM 2019, the Best Student Paper Award at ACM UMAP 2018 and the Best Paper Runner-up Award at IEEE ICDM 2021. In 2018 he spoke at the World Economic Forum in Davos on adversarial attacks and their implications for AI.</p>
+        <p>He founded BGU&rsquo;s Machine Learning Laboratory in 2006. The lab has since carried out more than two dozen funded projects for sponsors that include Deutsche Telekom, DARPA, Intel, Audi, IBM, EMC, Lockheed Martin, KBC Bank, General Motors, the EU Horizon 2020 programme, eBay and Rafael. He chaired the Department of Software and Information Systems Engineering from 2017 to 2020 and was Vice Dean for Research of the Faculty of Engineering from 2023 to 2025. Since 2018 he has directed the Center for Computational Criminology, a joint initiative of BGU and the Israel Police that develops AI methods to fight crime.</p>
+        <p>Before joining BGU he spent more than 15 years in software design and development as co-founder, CTO, VP of R&amp;D and chief architect in start-ups and public companies. He co-founded Kamoon, YooChoose (acquired by eZ Systems) and Deepchecks (acquired by Check Point), and established the research institute of Voyager Labs. He served in the Israel Defense Forces&rsquo; Intelligence Unit 8200. He lives in Omer with his wife, Ronit Flint, and their four sons.</p>
+      </div>
+      <div class="facts">
+        <figure class="photo-card">
+          <img src="assets/img/photos/bgu-podium.jpg" width="800" height="533" loading="lazy" alt="Lior Rokach speaking at a Ben-Gurion University podium">
+          <figcaption>Speaking at Ben-Gurion University of the Negev</figcaption>
+        </figure>
+        <div class="fact-card">
+          <h3>Education</h3>
+          <dl class="dl">
+            <dt>2004</dt><dd>Ph.D., Industrial Engineering, Tel Aviv University. Dissertation: <i>Decomposition Methodology in Data Mining</i> (advisor: Oded Maimon)</dd>
+            <dt>1999</dt><dd>M.Sc., Industrial Engineering, Tel Aviv University, magna cum laude</dd>
+            <dt>1998</dt><dd>B.Sc., Industrial Engineering, Tel Aviv University, summa cum laude, first in class (program for outstanding students)</dd>
+          </dl>
+        </div>
+        <div class="fact-card">
+          <h3>Academic appointments</h3>
+          <dl class="dl">
+            <dt>2025&ndash;</dt><dd>Professor, Institute for Applied AI Research, Faculty of Computer and Information Science, BGU</dd>
+            <dt>2025&ndash;</dt><dd>Research Collaborator, Department of Hematology, Mayo Clinic</dd>
+            <dt>2014&ndash;2025</dt><dd>Professor, Software and Information Systems Engineering, BGU</dd>
+            <dt>2005&ndash;2014</dt><dd>Lecturer, Senior Lecturer (tenured 2010) and Associate Professor, BGU</dd>
+            <dt>2012</dt><dd>Visiting Scholar, College of Information Sciences and Technology, Penn State University</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== RESEARCH ===================== -->
+<section id="research" aria-labelledby="research-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">Research</p>
+      <h2 id="research-h">Research areas</h2>
+      <p>The group works on learning algorithms and on the conditions under which they can be trusted in deployment: accuracy, stability, robustness to attack and interpretability.</p>
+    </div>
+    <div class="areas">
+      <article class="area">
+        <div class="glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l2-5 4 10 2-5h6"/></svg></div>
+        <h3>Artificial Intelligence in Healthcare</h3>
+        <p>Clinical prediction and decision support built from electronic health records and other real-world data: risk models for hematologic malignancies such as CLL and CMML, detection of atrial fibrillation after stroke, prediction of bleeding and cardiovascular outcomes, and drug safety in pregnancy and breastfeeding.</p>
+        <div class="tags"><span class="tag">clinical prediction</span><span class="tag">EHR</span><span class="tag">decision support</span><span class="tag">explainability</span></div>
+      </article>
+      <article class="area">
+        <div class="glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4.5 6v5.5c0 4.6 3.2 8.2 7.5 9.5 4.3-1.3 7.5-4.9 7.5-9.5V6L12 3z"/><path d="m9 12 2 2 4-4"/></svg></div>
+        <h3>Trustworthy and secure AI</h3>
+        <p>Adversarial machine learning, red teaming and jailbreak testing of large language models, prompt attacks on retrieval-augmented (RAG) systems, fairness evaluation of LLMs, and the explanation of anomalies and model errors.</p>
+        <div class="tags"><span class="tag">LLM security</span><span class="tag">RAG</span><span class="tag">adversarial ML</span><span class="tag">fairness</span></div>
+      </article>
+      <article class="area">
+        <div class="glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M2 12h3M19 12h3M4.9 19.1 7 17M17 7l2.1-2.1"/></svg></div>
+        <h3>AI Scientist</h3>
+        <p>AI systems that automate parts of the scientific process, from AutoML and meta-learning that choose algorithms and pipelines automatically, as in AutoGRD (best paper, CIKM 2019) and TRIO (best paper runner-up, ICDM 2021), to autonomous AI agents that generate hypotheses, run analyses and report results.</p>
+        <div class="tags"><span class="tag">AI scientist</span><span class="tag">AutoML</span><span class="tag">meta-learning</span><span class="tag">AI agents</span></div>
+      </article>
+      <article class="area">
+        <div class="glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><path d="m14.5 17.5 2 2 4-4"/></svg></div>
+        <h3>Recommender systems</h3>
+        <p>Personalization at scale: context-aware, cross-domain, session-based and bundle recommendation, and transfer learning between domains. Several of these systems run on e-commerce sites with millions of users.</p>
+        <div class="tags"><span class="tag">personalization</span><span class="tag">transfer learning</span><span class="tag">context</span></div>
+      </article>
+      <article class="area">
+        <div class="glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2.2"/><circle cx="18" cy="7" r="2.2"/><circle cx="12" cy="17" r="2.2"/><circle cx="4" cy="17" r="1.4"/><path d="M8.1 6.3 15.8 6.8M7.2 7.9l3.7 7.2M16.9 9l-3.7 6.1M6 15.9l3.8.6"/></svg></div>
+        <h3>AI for the life sciences and drug discovery</h3>
+        <p>Molecule generation with transformers and reinforcement learning, prediction of drug&ndash;drug interactions and drug withdrawal, bacterial sRNA&ndash;target interactions, antimicrobial resistance, and machine-learning analysis of cancer genomes.</p>
+        <div class="tags"><span class="tag">molecular generation</span><span class="tag">bioinformatics</span><span class="tag">AMR</span></div>
+      </article>
+      <article class="area">
+        <div class="glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="4.5" r="2"/><circle cx="6" cy="12" r="2"/><circle cx="18" cy="12" r="2"/><circle cx="3.5" cy="19.5" r="1.6"/><circle cx="8.5" cy="19.5" r="1.6"/><circle cx="18" cy="19.5" r="1.6"/><path d="M10.6 6 7.4 10.4M13.4 6l3.2 4.4M5.2 13.8l-1.1 4.1M6.8 13.8l1.1 4.1M18 14v3.9"/></svg></div>
+        <h3>Ensemble learning and decision forests</h3>
+        <p>Methods that combine many models into one accurate and stable predictor: how forests are built and diversified, how they can be compressed, and how a forest can be turned into an interpretable tree.</p>
+        <div class="tags"><span class="tag">ensembles</span><span class="tag">decision trees</span><span class="tag">boosting</span><span class="tag">interpretability</span></div>
+      </article>
+    </div>
+    <p class="also">Other active topics: anomaly detection, security of mobile and database systems, time-series learning, Hebrew NLP for legal and police documents, and computational criminology.</p>
+  </div>
+</section>
+
+<!-- ===================== BOOKS ===================== -->
+<section id="books" class="alt" aria-labelledby="books-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">Books</p>
+      <h2 id="books-h">Books and handbooks</h2>
+      <p>Monographs on decision trees, ensemble methods and clustering, and handbooks used as graduate reading on data mining and recommender systems.</p>
+    </div>
+
+    <div class="shelf-group">
+      <h3>Monographs, textbooks and handbooks <small>15 titles &middot; newest first</small></h3>
+      <div class="shelf shelf-main">
+        <a class="book" href="https://books.google.com/books?vid=ISBN9789811297472" target="_blank" rel="noopener">
+          <div class="cover"><img src="assets/img/books/cluster-analysis.jpg" width="349" height="522" loading="lazy" alt="Cover of Cluster Analysis: A Primer Using R"></div>
+          <div class="meta"><b>Cluster Analysis: A Primer Using R</b><span>World Scientific, 2024</span></div>
+        </a>
+        <a class="book" href="https://books.google.com/books?vid=ISBN9783031246272" target="_blank" rel="noopener">
+          <div class="cover"><img src="assets/img/books/ml-data-science-handbook-3e.jpg" width="336" height="522" loading="lazy" alt="Cover of Machine Learning for Data Science Handbook, third edition"></div>
+          <div class="meta"><b>Machine Learning for Data Science Handbook, 3rd ed.</b><span>Springer, 2023</span><em class="role-ed">editor</em></div>
+        </a>
+        <a class="book" href="https://books.google.com/books?vid=ISBN9781071621967" target="_blank" rel="noopener">
+          <div class="cover"><img src="assets/img/books/recsys-handbook-3e.jpg" width="346" height="522" loading="lazy" alt="Cover of Recommender Systems Handbook, third edition"></div>
+          <div class="meta"><b>Recommender Systems Handbook, 3rd ed.</b><span>Springer, 2022</span><em class="role-ed">editor</em></div>
+        </a>
+        <a class="book" href="https://books.google.com/books?vid=ISBN9789811201950" target="_blank" rel="noopener">
+          <div class="cover"><img src="assets/img/books/ensemble-learning-2e.jpg" width="190" height="280" loading="lazy" alt="Cover of Ensemble Learning, second edition"></div>
+          <div class="meta"><b>Ensemble Learning, 2nd ed.</b><span>World Scientific, 2019</span></div>
+        </a>
+        <a class="book" href="https://books.google.com/books?vid=ISBN9789814590075" target="_blank" rel="noopener">
+          <div class="cover"><img src="assets/img/books/decision-trees-2e.jpg" width="181" height="280" loading="lazy" alt="Cover of Data Mining with Decision Trees, second edition"></div>
+          <div class="meta"><b>Data Mining with Decision Trees, 2nd ed.</b><span>World Scientific, 2015</span></div>
+        </a>
+        <a class="book" href="https://books.google.com/books?vid=ISBN9781489976369" target="_blank" rel="noopener">
+          <div class="cover"><img src="assets/img/books/recsys-handbook-2e.jpg" width="192" height="280" loading="lazy" alt="Cover of Recommender Systems Handbook, second edition"></div>
+          <div class="meta"><b>Recommender Systems Handbook, 2nd ed.</b><span>Springer, 2015</span><em class="role-ed">editor</em></div>
+        </a>
+        <a class="book" href="https://books.google.com/books?vid=ISBN9781493905386" target="_blank" rel="noopener">
+          <div class="cover"><img src="assets/img/books/proactive-dm.jpg" width="186" height="280" loading="lazy" alt="Cover of Proactive Data Mining with Decision Trees"></div>
+          <div class="meta"><b>Proactive Data Mining with Decision Trees</b><span>Springer, 2014</span></div>
+        </a>
+        <a class="book" href="https://books.google.com/books?vid=ISBN9781461420521" target="_blank" rel="noopener">
+          <div class="cover"><img src="assets/img/books/data-leakage.jpg" width="185" height="280" loading="lazy" alt="Cover of A Survey of Data Leakage Detection and Prevention Solutions"></div>
+          <div class="meta"><b>A Survey of Data Leakage Detection and Prevention Solutions</b><span>Springer, 2012</span></div>
+        </a>
+        <a class="book" href="https://books.google.com/books?vid=ISBN0387858199" target="_blank" rel="noopener">
+          <div class="cover"><img src="assets/img/books/recsys-handbook-1e.jpg" width="185" height="280" loading="lazy" alt="Cover of Recommender Systems Handbook, first edition"></div>
+          <div class="meta"><b>Recommender Systems Handbook</b><span>Springer, 2011</span><em class="role-ed">editor</em></div>
+        </a>
+        <a class="book" href="https://books.google.com/books?vid=ISBN9814271063" target="_blank" rel="noopener">
+          <div class="cover"><img src="assets/img/books/ensemble-1e.jpg" width="188" height="280" loading="lazy" alt="Cover of Pattern Classification Using Ensemble Methods"></div>
+          <div class="meta"><b>Pattern Classification Using Ensemble Methods</b><span>World Scientific, 2010</span></div>
+        </a>
+        <a class="book" href="https://books.google.com/books?vid=ISBN0387098224" target="_blank" rel="noopener">
+          <div class="cover"><img src="assets/img/books/dmkd-handbook-2e.jpg" width="171" height="280" loading="lazy" alt="Cover of Data Mining and Knowledge Discovery Handbook, second edition"></div>
+          <div class="meta"><b>Data Mining and Knowledge Discovery Handbook, 2nd ed.</b><span>Springer, 2010</span><em class="role-ed">editor</em></div>
+        </a>
+        <a class="book" href="https://books.google.com/books?vid=ISBN9812771719" target="_blank" rel="noopener">
+          <div class="cover"><img src="assets/img/books/decision-trees-1e.jpg" width="202" height="280" loading="lazy" alt="Cover of Data Mining with Decision Trees, first edition"></div>
+          <div class="meta"><b>Data Mining with Decision Trees</b><span>World Scientific, 2008</span></div>
+        </a>
+        <a class="book" href="https://books.google.com/books?vid=ISBN0387699341" target="_blank" rel="noopener">
+          <div class="cover"><img src="assets/img/books/soft-computing.jpg" width="183" height="280" loading="lazy" alt="Cover of Soft Computing for Knowledge Discovery and Data Mining"></div>
+          <div class="meta"><b>Soft Computing for Knowledge Discovery and Data Mining</b><span>Springer, 2007</span><em class="role-ed">editor</em></div>
+        </a>
+        <a class="book" href="https://books.google.com/books?vid=ISBN9812560793" target="_blank" rel="noopener">
+          <div class="cover"><img src="assets/img/books/decomposition.jpg" width="189" height="280" loading="lazy" alt="Cover of Decomposition Methodology for Knowledge Discovery and Data Mining"></div>
+          <div class="meta"><b>Decomposition Methodology for Knowledge Discovery and Data Mining</b><span>World Scientific, 2005</span></div>
+        </a>
+        <a class="book" href="https://books.google.com/books?vid=ISBN0387244352" target="_blank" rel="noopener">
+          <div class="cover"><img src="assets/img/books/dmkd-handbook-1e.jpg" width="179" height="280" loading="lazy" alt="Cover of The Data Mining and Knowledge Discovery Handbook"></div>
+          <div class="meta"><b>The Data Mining and Knowledge Discovery Handbook</b><span>Springer, 2005</span><em class="role-ed">editor</em></div>
+        </a>
+      </div>
+    </div>
+
+    <div class="shelf-group">
+      <h3>Translations <small>Chinese editions</small></h3>
+      <div class="shelf shelf-mini">
+        <div class="book">
+          <div class="cover"><img src="assets/img/books/recsys-handbook-2e-zh.jpg" width="187" height="280" loading="lazy" alt="Cover of the Chinese edition of Recommender Systems Handbook, second edition"></div>
+          <div class="meta"><b>推荐系统：技术、评估及高效算法 (2nd ed.)</b><span>China Machine Press, 2018</span></div>
+        </div>
+        <div class="book">
+          <div class="cover"><img src="assets/img/books/ensemble-zh.jpg" width="200" height="280" loading="lazy" alt="Cover of the Chinese edition of Pattern Classification Using Ensemble Methods"></div>
+          <div class="meta"><b>模式分类的集成方法</b><span>National Defense Industry Press, 2015</span></div>
+        </div>
+        <div class="book">
+          <div class="cover"><img src="assets/img/books/recsys-handbook-1e-zh.jpg" width="209" height="280" loading="lazy" alt="Cover of the Chinese edition of Recommender Systems Handbook"></div>
+          <div class="meta"><b>推荐系统：技术、评估及高效算法</b><span>China Machine Press, 2015</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="reviews">
+      <blockquote class="review">
+        <p>&ldquo;Overall, the book by Rokach &amp; Maimon is a must read for anybody who is working in the area of knowledge discovery/data mining and has the potential to became a standard on our desks.&rdquo;</p>
+        <cite>Andreas Holzinger, <i>Online Information Review</i>, 2015, on <i>Data Mining with Decision Trees</i></cite>
+      </blockquote>
+      <blockquote class="review">
+        <p>&ldquo;If you have time for just one book &hellip;, this is the book you want. Recommender systems handbook is carefully edited book that covers a wide range of topics.&rdquo;</p>
+        <cite>K. Balogh, <i>ACM Computing Reviews</i>, 2016</cite>
+      </blockquote>
+      <blockquote class="review">
+        <p>&ldquo;It is an indispensable reference for researchers and an excellent starting point for advanced students taking graduate courses in this area. Summing Up: Highly recommended.&rdquo;</p>
+        <cite>J. Y. Cheung, <i>Choice</i>, 2011, on <i>Data Mining and Knowledge Discovery Handbook</i></cite>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PUBLICATIONS ===================== -->
+<section id="publications" aria-labelledby="pubs-h">
+  <div class="wrap">
+    <div class="pub-top">
+      <div class="sec-head" style="margin-bottom:0">
+        <p class="kicker">Publications</p>
+        <h2 id="pubs-h">Papers and book chapters</h2>
+        <p>Journal articles, conference and workshop papers, and book chapters. Search by title, co-author, venue or topic, filter by type, or click a year in the chart.</p>
+        <p class="muted" style="font-size:.9rem">Full and current lists: <a href="https://scholar.google.com/citations?user=makfxEUAAAAJ" target="_blank" rel="noopener">Google Scholar ↗</a> &middot; <a href="https://dblp.org/search?q=Lior+Rokach" target="_blank" rel="noopener">DBLP ↗</a></p>
+      </div>
+      <div class="histo" id="pub-histo">
+        <div class="histo-head"><span>Papers per year (click a bar to filter)</span><span id="histo-total"></span></div>
+        <div class="histo-bars"></div>
+        <div class="histo-axis"></div>
+      </div>
+    </div>
+
+    <div class="controls" role="search">
+      <label class="search" for="pub-q"><span class="sr-only">Search publications</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="pub-q" type="search" placeholder="Search by title, co-author, venue or topic" autocomplete="off">
+      </label>
+      <div class="chips" id="pub-types" role="group" aria-label="Publication type"></div>
+      <label for="pub-year" class="sr-only">Year</label>
+      <select id="pub-year" class="chip"></select>
+    </div>
+    <div class="pub-status"><span id="pub-status" aria-live="polite"></span><button type="button" class="linkish" id="pub-reset" hidden>Clear filters</button></div>
+    <div class="pub-list" id="pub-list"><noscript><p class="muted">Enable JavaScript to see the publication list, or open <a href="https://scholar.google.com/citations?user=makfxEUAAAAJ">Google Scholar</a>.</p></noscript></div>
+    <div class="more-wrap"><button type="button" class="btn btn-line" id="pub-more">Show more</button></div>
+  </div>
+</section>
+
+<!-- ===================== HONORS & SERVICE ===================== -->
+<section id="honors" class="alt" aria-labelledby="honors-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">Recognition and service</p>
+      <h2 id="honors-h">Honors, leadership and editorial work</h2>
+    </div>
+    <div class="two-col">
+      <div>
+        <h3 class="col-h">Selected honors</h3>
+        <ol class="timeline" reversed>
+          <li><time>2026</time><div class="what">ScholarGPS Highly Ranked Scholar, Lifetime, all fields<small>Top 0.05% of about 30 million scholars</small></div></li>
+          <li><time>2026</time><div class="what">BGU Vice President and Dean for R&amp;D Award for Breakthrough Research<small>For methods that improve the accuracy and stability of AI models</small></div></li>
+          <li><time>2022&ndash;26</time><div class="what">Top 0.1% of AI researchers by career-long impact<small>Stanford/Elsevier Top 2% Scientists rankings, every year</small></div></li>
+          <li><time>2024</time><div class="what">ScholarGPS inaugural Highly Ranked Scholar in Data Mining<small>Top 0.05% worldwide</small></div></li>
+          <li><time>2023</time><div class="what">Editor&rsquo;s choice, <i>Blood</i><small>Nirmatrelvir plus ritonavir for patients with CLL during the Omicron surge</small></div></li>
+          <li><time>2021</time><div class="what">Best Paper Runner-up, IEEE ICDM 2021<small>TRIO: task-agnostic dataset representation for algorithm selection</small></div></li>
+          <li><time>2019</time><div class="what">Best Research Paper and Best Industry Paper, ACM CIKM 2019<small>AutoGRD: model recommendation through graphical dataset representation</small></div></li>
+          <li><time>2018</time><div class="what">Best Student Paper, ACM UMAP 2018<small>Predicting demographic information using word2vec on spatial trajectories</small></div></li>
+          <li><time>2018</time><div class="what">AMiner AI-10 Most Influential Scholar Award (social networks)</div></li>
+          <li><time>2018</time><div class="what">ESI Highly Cited Paper<small>Decision forest: twenty years of research</small></div></li>
+          <li><time>2014</time><div class="what">Best Performance Award, ESWC 2014 Sentiment Analysis Challenge</div></li>
+          <li><time>2012</time><div class="what">BGU Toronto Prize for Academic Excellence in Research<small>For contributions to machine learning, in particular efficient ensemble learning algorithms</small></div></li>
+          <li><time>2012</time><div class="what">ESI Highly Cited Paper<small>Ensemble-based classifiers</small></div></li>
+          <li><time>2002&ndash;07</time><div class="what">Lecturer of the Year teaching awards<small>Holon Institute of Technology (2002), Tel Aviv University (2003), BGU Faculty of Engineering (2006, 2007)</small></div></li>
+        </ol>
+      </div>
+      <div>
+        <h3 class="col-h">Leadership and public service</h3>
+        <ol class="timeline" reversed>
+          <li><time>2026&ndash;29</time><div class="what">Member, UN Independent International Scientific Panel on AI</div></li>
+          <li><time>2026</time><div class="what">Member, Beyond Intelligence: the Israeli President&rsquo;s Forum on the Future of Humanity and Society in the Age of AI</div></li>
+          <li><time>2026&ndash;29</time><div class="what">Member, Professional Advisory Committee for Computer Science and AI, Ministry of Education</div></li>
+          <li><time>2026&ndash;29</time><div class="what">Member, Committee for the Doctoral Scholarship Program in AI and Data Science, Planning and Budgeting Committee (VATAT)</div></li>
+          <li><time>2023&ndash;25</time><div class="what">Vice Dean for Research, Faculty of Engineering, BGU</div></li>
+          <li><time>2018&ndash;</time><div class="what">Founding Director, Center for Computational Criminology, BGU and Israel Police</div></li>
+          <li><time>2017&ndash;20</time><div class="what">Chair, Department of Software and Information Systems Engineering<small>Moved the department to a new building; launched a B.Sc. in Data Engineering and two M.Sc. tracks in machine learning and AI; grew to 900 undergraduate and more than 300 research students; recruited nine tenure-track faculty; set transparent promotion criteria; initiated BGU&rsquo;s Data Science Center</small></div></li>
+          <li><time>2019</time><div class="what">Acting Chair, VATAT steering committee for Data Science</div></li>
+          <li><time>2013&ndash;26</time><div class="what">Co-founder of academic programs<small>M.Sc. track in Data Science (2013), summer school on ML for cyber security (2015), B.Sc. in Data Science and Engineering (2018), Y-Data program with Yandex (2019), B.Sc. in AI (2026)</small></div></li>
+        </ol>
+        <h3 class="col-h" style="margin-top:2rem">Editorial boards</h3>
+        <ol class="timeline" reversed>
+          <li><time>2017&ndash;</time><div class="what">Associate Editor, <i>ACM Transactions on Intelligent Systems and Technology</i></div></li>
+          <li><time>2014&ndash;</time><div class="what">Area Editor, Machine Learning and Pattern Recognition, <i>Information Fusion</i> (Elsevier)</div></li>
+          <li><time>2011&ndash;</time><div class="what">Associate Editor, <i>Progress in Artificial Intelligence</i> (Springer)</div></li>
+        </ol>
+        <p class="muted" style="font-size:.9rem;margin-top:1rem">Senior program committee member at ACM RecSys, ACM KDD, ACM CIKM and IJCAI; workshops co-chair of ACM RecSys 2014; reviewer for the Israel Science Foundation, BSF, GIF and several European research councils.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PATENTS ===================== -->
+<section id="patents" aria-labelledby="patents-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">Patents</p>
+      <h2 id="patents-h">Granted patents</h2>
+      <p>Inventions from the group cover recommender systems, ensemble classifiers, continuous user verification, data-leakage prevention, synthetic data and the analysis of cyber attacks. Each card opens the full patent on Google Patents.</p>
+    </div>
+    <div class="patents-grid">
+      <div class="pat-intro">
+        <b>22</b>
+        <span>granted patents</span>
+        <dl>
+          <div><dt>9</dt><dd>United States</dd></div>
+          <div><dt>11</dt><dd>European</dd></div>
+          <div><dt>2</dt><dd>Israeli</dd></div>
+        </dl>
+      </div>
+      <a class="patent" href="https://patents.google.com/patent/US11601452B2/en" target="_blank" rel="noopener">
+        <div class="pat-img"><img src="assets/img/patents/US11601452.jpg" width="216" height="288" loading="lazy" alt="First page or main drawing of patent US 11,601,452 B2"></div>
+        <span class="pat-no">2023 &middot; US 11,601,452 B2</span>
+        <h3>System and method for assessing cybersecurity awareness</h3>
+      </a>
+      <a class="patent" href="https://patents.google.com/patent/EP3343869B1/en" target="_blank" rel="noopener">
+        <div class="pat-img"><img src="assets/img/patents/EP3343869.jpg" width="216" height="288" loading="lazy" alt="First page or main drawing of patent EP 3 343 869 B1"></div>
+        <span class="pat-no">2021 &middot; EP 3 343 869 B1</span>
+        <h3>Method for modeling attack patterns in honeypots</h3>
+      </a>
+      <a class="patent" href="https://patents.google.com/patent/EP2919447B1/en" target="_blank" rel="noopener">
+        <div class="pat-img"><img src="assets/img/patents/EP2919447.jpg" width="216" height="288" loading="lazy" alt="First page or main drawing of patent EP 2 919 447 B1"></div>
+        <span class="pat-no">2021 &middot; EP 2 919 447 B1</span>
+        <h3>Method for building pseudo-fabricated records for a telecommunication platform</h3>
+      </a>
+      <a class="patent" href="https://patents.google.com/patent/EP3040927B1/en" target="_blank" rel="noopener">
+        <div class="pat-img"><img src="assets/img/patents/EP3040927.jpg" width="216" height="288" loading="lazy" alt="First page or main drawing of patent EP 3 040 927 B1"></div>
+        <span class="pat-no">2021 &middot; EP 3 040 927 B1</span>
+        <h3>System for generating fabricated pattern data records</h3>
+      </a>
+      <a class="patent" href="https://patents.google.com/patent/US10866998B2/en" target="_blank" rel="noopener">
+        <div class="pat-img"><img src="assets/img/patents/US10866998.jpg" width="216" height="288" loading="lazy" alt="First page or main drawing of patent US 10,866,998 B2"></div>
+        <span class="pat-no">2020 &middot; US 10,866,998 B2</span>
+        <h3>System and method for identifying contacts of a target user in a social network</h3>
+      </a>
+      <a class="patent" href="https://patents.google.com/patent/EP3396400B1/en" target="_blank" rel="noopener">
+        <div class="pat-img"><img src="assets/img/patents/EP3396400.jpg" width="216" height="288" loading="lazy" alt="First page or main drawing of patent EP 3 396 400 B1"></div>
+        <span class="pat-no">2020 &middot; EP 3 396 400 B1</span>
+        <h3>System and method for clustering Wi-Fi fingerprints for indoor–outdoor detection</h3>
+      </a>
+      <a class="patent" href="https://patents.google.com/patent/EP3346666B1/en" target="_blank" rel="noopener">
+        <div class="pat-img"><img src="assets/img/patents/EP3346666.jpg" width="216" height="288" loading="lazy" alt="First page or main drawing of patent EP 3 346 666 B1"></div>
+        <span class="pat-no">2020 &middot; EP 3 346 666 B1</span>
+        <h3>Prediction system for modeling the expected number of attacks on a computer or communication network</h3>
+      </a>
+      <a class="patent" href="https://patents.google.com/patent/EP3340567B1/en" target="_blank" rel="noopener">
+        <div class="pat-img"><img src="assets/img/patents/EP3340567.jpg" width="216" height="288" loading="lazy" alt="First page or main drawing of patent EP 3 340 567 B1"></div>
+        <span class="pat-no">2020 &middot; EP 3 340 567 B1</span>
+        <h3>Model for identifying attack propagation patterns in monitored sensor-based systems</h3>
+      </a>
+      <a class="patent" href="https://patents.google.com/patent/EP3336739B1/en" target="_blank" rel="noopener">
+        <div class="pat-img"><img src="assets/img/patents/EP3336739.jpg" width="216" height="288" loading="lazy" alt="First page or main drawing of patent EP 3 336 739 B1"></div>
+        <span class="pat-no">2020 &middot; EP 3 336 739 B1</span>
+        <h3>Method for classifying attack sources in cyber-attack sensor systems</h3>
+      </a>
+      <a class="patent" href="https://patents.google.com/patent/US10489524B2/en" target="_blank" rel="noopener">
+        <div class="pat-img"><img src="assets/img/patents/US10489524.jpg" width="216" height="288" loading="lazy" alt="First page or main drawing of patent US 10,489,524 B2 · EP 3 040 897 B1"></div>
+        <span class="pat-no">2019 &middot; US 10,489,524 B2 · EP 3 040 897 B1</span>
+        <h3>Synthetic data generation method</h3>
+      </a>
+      <a class="patent" href="https://patents.google.com/patent/US10454958B2/en" target="_blank" rel="noopener">
+        <div class="pat-img"><img src="assets/img/patents/US10454958.jpg" width="216" height="288" loading="lazy" alt="First page or main drawing of patent US 10,454,958 B2"></div>
+        <span class="pat-no">2019 &middot; US 10,454,958 B2</span>
+        <h3>System and method for assessing cybersecurity awareness</h3>
+      </a>
+      <a class="patent" href="https://patents.google.com/patent/EP2571225B1/en" target="_blank" rel="noopener">
+        <div class="pat-img"><img src="assets/img/patents/EP2571225.jpg" width="216" height="288" loading="lazy" alt="First page or main drawing of patent EP 2 571 225 B1"></div>
+        <span class="pat-no">2018 &middot; EP 2 571 225 B1</span>
+        <h3>Method for detecting data misuse in an organization’s network</h3>
+      </a>
+      <a class="patent" href="https://patents.google.com/patent/EP2570959B1/en" target="_blank" rel="noopener">
+        <div class="pat-img"><img src="assets/img/patents/EP2570959.jpg" width="216" height="288" loading="lazy" alt="First page or main drawing of patent EP 2 570 959 B1"></div>
+        <span class="pat-no">2018 &middot; EP 2 570 959 B1</span>
+        <h3>Method of estimating the potential damage of a data-leakage incident by assigning misuseability weight</h3>
+      </a>
+      <a class="patent" href="https://patents.google.com/patent/EP2477136B1/en" target="_blank" rel="noopener">
+        <div class="pat-img"><img src="assets/img/patents/EP2477136.jpg" width="216" height="288" loading="lazy" alt="First page or main drawing of patent EP 2 477 136 B1 · IL 210698"></div>
+        <span class="pat-no">2018 &middot; EP 2 477 136 B1 · IL 210698</span>
+        <h3>Method for continuously verifying user identity via keystroke dynamics</h3>
+      </a>
+      <a class="patent" href="https://patents.google.com/patent/US9728014B2/en" target="_blank" rel="noopener">
+        <div class="pat-img"><img src="assets/img/patents/US9728014.jpg" width="216" height="288" loading="lazy" alt="First page or main drawing of patent US 9,728,014 B2"></div>
+        <span class="pat-no">2017 &middot; US 9,728,014 B2</span>
+        <h3>Sensor fault detection and diagnosis for autonomous systems</h3>
+      </a>
+      <a class="patent" href="https://patents.google.com/patent/US9646245B2/en" target="_blank" rel="noopener">
+        <div class="pat-img"><img src="assets/img/patents/US9646245.jpg" width="216" height="288" loading="lazy" alt="First page or main drawing of patent US 9,646,245 B2"></div>
+        <span class="pat-no">2017 &middot; US 9,646,245 B2</span>
+        <h3>System and method for identifying contacts of a target user in a social network</h3>
+      </a>
+      <a class="patent" href="https://patents.google.com/patent/EP2871869B1/en" target="_blank" rel="noopener">
+        <div class="pat-img"><img src="assets/img/patents/EP2871869.jpg" width="216" height="288" loading="lazy" alt="First page or main drawing of patent EP 2 871 869 B1"></div>
+        <span class="pat-no">2016 &middot; EP 2 871 869 B1</span>
+        <h3>Accurate mechanism for estimating a mobile communication service provider’s market share</h3>
+      </a>
+      <a class="patent" href="https://patents.google.com/patent/IL229393A/en" target="_blank" rel="noopener">
+        <div class="pat-img"><img src="assets/img/patents/IL229393.jpg" width="216" height="288" loading="lazy" alt="First page or main drawing of patent IL 229393"></div>
+        <span class="pat-no">2016 &middot; IL 229393</span>
+        <h3>Method for accurately estimating a mobile communication service provider’s market share</h3>
+      </a>
+      <a class="patent" href="https://patents.google.com/patent/IL204123A/en" target="_blank" rel="noopener">
+        <div class="pat-img"><img src="assets/img/patents/IL204123.jpg" width="216" height="288" loading="lazy" alt="First page or main drawing of patent IL 204123"></div>
+        <span class="pat-no">2014 &middot; IL 204123</span>
+        <h3>Next-step prediction system and method</h3>
+      </a>
+      <a class="patent" href="https://patents.google.com/patent/US8793248B2/en" target="_blank" rel="noopener">
+        <div class="pat-img"><img src="assets/img/patents/US8793248.jpg" width="216" height="288" loading="lazy" alt="First page or main drawing of patent US 8,793,248 B2"></div>
+        <span class="pat-no">2014 &middot; US 8,793,248 B2</span>
+        <h3>Method and system for recommending geo-tagged items</h3>
+      </a>
+      <a class="patent" href="https://patents.google.com/patent/US8244652B2/en" target="_blank" rel="noopener">
+        <div class="pat-img"><img src="assets/img/patents/US8244652.jpg" width="216" height="288" loading="lazy" alt="First page or main drawing of patent US 8,244,652 B2"></div>
+        <span class="pat-no">2012 &middot; US 8,244,652 B2</span>
+        <h3>Stacking schema for classification tasks</h3>
+      </a>
+      <a class="patent" href="https://patents.google.com/patent/US8019707B2/en" target="_blank" rel="noopener">
+        <div class="pat-img"><img src="assets/img/patents/US8019707.jpg" width="216" height="288" loading="lazy" alt="First page or main drawing of patent US 8,019,707 B2"></div>
+        <span class="pat-no">2011 &middot; US 8,019,707 B2</span>
+        <h3>Interactive hybrid recommender system</h3>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== LAB ===================== -->
+<section id="lab" class="alt" aria-labelledby="lab-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">Lab and students</p>
+      <h2 id="lab-h">Research group</h2>
+      <p>Graduate students in the group work on machine learning and its applications, often co-supervised with colleagues in medicine, biology, security and the social sciences.</p>
+    </div>
+    <div class="lab-grid">
+      <div class="lab-card"><h3>Machine Learning Laboratory</h3><p class="muted">Founded in March 2006. Develops new learning methods and adapts them to build intelligent systems; more than two dozen funded research projects since its founding.</p></div>
+      <div class="lab-card"><h3>Big Data Laboratory</h3><p class="muted">Founded in 2013 with support from Intel. Algorithms for very large datasets, with emphasis on high-dimensional clustering, classification and anomaly detection in web mining and cyber security.</p></div>
+    </div>
+    <div class="counts">
+      <div class="count"><b>33</b><span>Ph.D. graduates</span></div>
+      <div class="count"><b>113</b><span>M.Sc. theses supervised</span></div>
+      <div class="count"><b>9</b><span>postdocs, M.D. fellows and visiting scholars</span></div>
+      <div class="count"><b>2</b><span>IBM Ph.D. Fellowships</span></div>
+    </div>
+    <details class="roster">
+      <summary>Ph.D. graduates <small>33</small></summary>
+      <div class="roster-body">
+        <label class="sr-only" for="phd-q">Filter Ph.D. graduates</label>
+        <input id="phd-q" type="search" placeholder="Filter by name, topic or year" data-filter-list="phd-list">
+        <ul class="roster-list" id="phd-list"><li><span class="y">2026</span><span><span class="nm">Moran Beladev</span><span class="th">Representation Learning on Temporal Graphs</span><span class="co">with Gilad Katz</span></span></li><li><span class="y">2026</span><span><span class="nm">Eyal Hadad</span><span class="th">Cross-Species and Cross-Task Transfer Learning Approaches for Transcriptional and Post-Transcriptional Gene Regulation</span><span class="co">with Isana Veksler-Lublinsky</span></span></li><li><span class="y">2026</span><span><span class="nm">Shani Cohen</span><span class="th">Computational Learning Approaches for Predicting and Analyzing Intra-species Bacterial sRNA-Target Interactions</span><span class="co">with Isana Veksler-Lublinsky</span></span></li><li><span class="y">2026</span><span><span class="nm">Nir Regev</span><span class="th">Approximating SQL queries with Deep Learning</span><span class="co">with Asaf Shabtai</span></span></li><li><span class="y">2026</span><span><span class="nm">Tomer Meirman</span><span class="th">Handling High-Dimensionality in Causality and Prediction in Healthcare</span><span class="co">with Bracha Shapira and Noa Dagan</span></span></li><li><span class="y">2026</span><span><span class="nm">Yehonatan Cohen</span><span class="th">Human Brain Based Computational Models as a Solution for Time Series and Image Processing Problems</span><span class="co">with Gilad Katz and Ilana Nisky</span></span></li><li><span class="y">2026</span><span><span class="nm">Hagit Shaposhnik</span><span class="th">Toward Interruption Management Systems Based on Workload Classification Using Machine Learning Models and Eye-Tracking Data</span></span></li><li><span class="y">2025</span><span><span class="nm">Liat Antwarg</span><span class="th">Explainable AI</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2025</span><span><span class="nm">Amit Livne</span><span class="th">Deep Recommender Systems Utilizing Side Information</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2025</span><span><span class="nm">Roman Vainshtein</span><span class="th">Representation of Datasets and Machine Learning Pipelines for Meta-Learning and AutoML Optimization</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2025</span><span><span class="nm">Noy Cohen-Shapira</span><span class="th">Algorithm Selection Through Graphical Dataset Representation</span></span></li><li><span class="y">2024</span><span><span class="nm">Amiel Meisels</span><span class="th">Robustness and Explainability of Tree-based Models</span></span></li><li><span class="y">2024</span><span><span class="nm">Seffi Cohen</span><span class="th">Enforcing Diversity Within Ensemble Methods</span></span></li><li><span class="y">2023</span><span><span class="nm">Guy Shtar</span><span class="th">Machine Learning Based Drug Discovery</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2023</span><span><span class="nm">Ariel Bar</span><span class="th">Pattern Mining from Sequential Bipartite Graphs</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2023</span><span><span class="nm">Yael Mathov</span><span class="th">Adversarial Learning</span><span class="co">with Y. Elovici</span></span></li><li><span class="y">2022</span><span><span class="nm">Hagit Grushka</span><span class="fellow">IBM Ph.D. Fellow</span><span class="th">Combining salient data with expert knowledge for effective big data monitoring</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2022</span><span><span class="nm">Adir Solomon</span><span class="th">User Modeling and Inference Using Spatial Latent Representation</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2021</span><span><span class="nm">Adam Kubany</span><span class="th">Reasoning semantic relationships of image objects</span></span></li><li><span class="y">2021</span><span><span class="nm">Omer Sagi</span><span class="th">Decision Forest Compression</span></span></li><li><span class="y">2021</span><span><span class="nm">Itai Hazan</span><span class="th">Methods for Improving the Security of Keystroke Dynamics Solutions</span><span class="co">with O. Margalit</span></span></li><li><span class="y">2021</span><span><span class="nm">Ishai Rosenberg</span><span class="th">Adversarial Learning</span><span class="co">with A. Shabtai and Y. Elovici</span></span></li><li><span class="y">2021</span><span><span class="nm">Edita Grolman</span><span class="th">Scalable Transfer Learning Cross-Domain Recommendation Systems</span><span class="co">with A. Shabtai</span></span></li><li><span class="y">2019</span><span><span class="nm">Sigal Elnekave</span><span class="th">Sequence Preserving Data Generation for Privacy Preservation</span></span></li><li><span class="y">2019</span><span><span class="nm">Asi Messica Greenstein</span><span class="th">Incorporating Product Price into Recommender System</span></span></li><li><span class="y">2019</span><span><span class="nm">Victor Makarenkov</span><span class="th">Automatic Proofreading</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2016</span><span><span class="nm">Nir Ofek</span><span class="th">Sentiment Analysis</span></span></li><li><span class="y">2016</span><span><span class="nm">Eli Khalastchi</span><span class="fellow">IBM Ph.D. Fellow</span><span class="th">Anomaly detection</span><span class="co">with Meir Kalech</span></span></li><li><span class="y">2015</span><span><span class="nm">David Ben-Shimon</span><span class="th">Anytime algorithms for recommender systems</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2014</span><span><span class="nm">Lihi Namani</span><span class="th">Multi-Agent Voting</span><span class="co">with B. Shapira and M. Kalech</span></span></li><li><span class="y">2014</span><span><span class="nm">Daniel Gordon</span><span class="th">Anomaly detection in time series</span><span class="co">with D. Handler</span></span></li><li><span class="y">2013</span><span><span class="nm">Eitan Menachem</span><span class="th">Active Security of Distributed Systems</span><span class="co">with Y. Elovici</span></span></li><li><span class="y">2012</span><span><span class="nm">Lena Tenenboim</span><span class="th">Multiple Label Classification</span><span class="co">with B. Shapira</span></span></li></ul>
+      </div>
+    </details>
+    <details class="roster">
+      <summary>M.Sc. graduates (thesis track) <small>113</small></summary>
+      <div class="roster-body">
+        <label class="sr-only" for="msc-q">Filter M.Sc. graduates</label>
+        <input id="msc-q" type="search" placeholder="Filter by name, topic or year" data-filter-list="msc-list">
+        <ul class="roster-list" id="msc-list"><li><span class="y">2026</span><span><span class="nm">Niv Bar-On</span><span class="th">Molecule Mix and Match: Permutation-Based Contrastive Learning for Molecular Graphs</span></span></li><li><span class="y">2026</span><span><span class="nm">Itai Sol</span><span class="th">Development of an Embedding-Based Computational Pipeline for Detecting and Predicting Homologous Antimicrobial Resistance Plasmids Across Bacterial Hosts</span><span class="co">with Moran Gilad</span></span></li><li><span class="y">2025</span><span><span class="nm">Omer Yanai</span><span class="th">We see THINGS differently – Image computable models of individual visual representations</span><span class="co">with Dr. Tal Golan and Prof. Bracha Shapira</span></span></li><li><span class="y">2025</span><span><span class="nm">Roei Zaady</span><span class="th">DiFair-LLM: Evaluating Fairness Disparities in LLMs Toward Demographic Groups</span><span class="co">with Bracha Shapira</span></span></li><li><span class="y">2025</span><span><span class="nm">Or Gindes</span><span class="th">Multi-Goal-Conditioned-Return-Blocks Decision Transformer: A Novel Approach for Multi-target Molecular Generation</span><span class="co">with Bracha Shapira</span></span></li><li><span class="y">2025</span><span><span class="nm">Shai Rippel</span><span class="th">Placental Abruption Severity Prediction by Applying Machine Learning Methods to EHR Data</span></span></li><li><span class="y">2024</span><span><span class="nm">Shvat Mesica</span><span class="th">Improving the Detection of Diabetic Retinopathy by Fusion of Fundus Imaging with Biomarkers Trends Extracted from Electronic Health Records</span></span></li><li><span class="y">2024</span><span><span class="nm">Tzvi Lederer</span><span class="th">Silent Killer: Optimizing Backdoor Trigger Yields a Stealthy and Powerful Data Poisoning Attack</span></span></li><li><span class="y">2024</span><span><span class="nm">Shmuel Stav</span><span class="th">Finding optimal intervention point for preventing Academic Dropout</span></span></li><li><span class="y">2024</span><span><span class="nm">Omer Nizri</span><span class="th">CDCDB: A large and continuously updated drug combination database</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2024</span><span><span class="nm">Yuval David</span><span class="th">Improving Bayesian Information Criteria Using Shapley Values</span></span></li><li><span class="y">2024</span><span><span class="nm">Koren Ishlach</span><span class="th">A Novel Method for News Article Event-Based Embedding</span><span class="co">with Itzhak Ben-David and Dr. Michael Fire</span></span></li><li><span class="y">2024</span><span><span class="nm">Dvir Levi</span><span class="th">Imputation methods for binary outcomes in tree-based prediction models in the medical domain</span><span class="co">with Noam Barda</span></span></li><li><span class="y">2024</span><span><span class="nm">Koren Levenbrown</span><span class="th">Dual-Style Disentanglement for Visual Identity Preservation in Pose-constrained Hand Generation</span></span></li><li><span class="y">2023</span><span><span class="nm">Yoel Weiss</span><span class="th">CASH: Clustering Anomalies with SHAP</span></span></li><li><span class="y">2023</span><span><span class="nm">Gal Braun</span><span class="th">Adversarial Detector for Decision Trees Ensembles Using Representation Learning</span></span></li><li><span class="y">2023</span><span><span class="nm">Bar Vered</span><span class="th">AMFPMC – An improved method of detecting multiple types of drug-drug interactions</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2023</span><span><span class="nm">Nurit Cohen-Inger</span><span class="th">ICU Survival Prediction Incorporating Test-Time Augmentation to Improve the Accuracy of Ensemble-Based Models</span></span></li><li><span class="y">2023</span><span><span class="nm">David Abekasis</span><span class="th">Explainable Machine Learning for Revealing Causes of Citrus Fruit Cracking on a Regional Scale</span><span class="co">with Tarin Paz-Kagan</span></span></li><li><span class="y">2023</span><span><span class="nm">Ronen Priel</span><span class="th">Automated stock picking using value investing and quality features</span></span></li><li><span class="y">2023</span><span><span class="nm">Itai Dagan</span><span class="th">Automated Algorithm Selection Using Meta-Learning and Pre-trained Deep Convolution Neural Networks</span></span></li><li><span class="y">2022</span><span><span class="nm">Shai Meital</span><span class="th">Predicting Discourse Branching in Online Conversations</span><span class="co">with N. Grinberg</span></span></li><li><span class="y">2022</span><span><span class="nm">Galil Maimon</span><span class="th">Learning a Universal Adversarial Policy for Text Classifiers</span></span></li><li><span class="y">2022</span><span><span class="nm">Chen Yanai</span><span class="th">Modeling Basketball Games Using Deep Reinforcement Learning</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2022</span><span><span class="nm">Gil Shamay</span><span class="th">End of Session Classification For Session Based Recommendation Systems</span></span></li><li><span class="y">2022</span><span><span class="nm">Guy Gonen</span><span class="th">Defining Behavioral Patterns for Attackers in Cloud Databases</span></span></li><li><span class="y">2022</span><span><span class="nm">Michael Michaelshvili</span><span class="th">Contextual security awareness: A context-based approach for assessing the security awareness of users</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2022</span><span><span class="nm">Erel Lior</span><span class="th">Detection and Prediction of Malicious Genome Editing in Bacteria</span><span class="co">with J. Moran-Gilad</span></span></li><li><span class="y">2021</span><span><span class="nm">Eli Simhayev</span><span class="th">PIVEN: A Deep Neural Network for Prediction Intervals with Specific Value Prediction</span><span class="co">with G. Katz</span></span></li><li><span class="y">2021</span><span><span class="nm">Itay Gabbay</span><span class="th">Isolation Forests and Landmarking based representations for clustering algorithm recommendation by meta-learning</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2021</span><span><span class="nm">Noa Bar-Tal</span><span class="th">Deep Learning for time series classification with aggregated features</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2021</span><span><span class="nm">Lior Cohen</span><span class="th">Named Entity Based News Stories Clustering Using Transformers Siamese Networks</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2021</span><span><span class="nm">Adva Hadrian</span><span class="th">DeepCAN: Hybrid Method for Road Type Classification Using Vehicle Sensor Data for Smart Autonomous Mobility</span></span></li><li><span class="y">2021</span><span><span class="nm">Moran Haham</span><span class="th">Active Learning for Preferences Elicitation in Recommender Systems</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2020</span><span><span class="nm">Amiel Meisels</span><span class="th">Source Model Selection for Deep Learning in the Time Series Domain</span></span></li><li><span class="y">2020</span><span><span class="nm">Gal Rozenfeld</span><span class="th">Active-Learning-Based Circuit Synthesis</span><span class="co">with Meir Kalech</span></span></li><li><span class="y">2020</span><span><span class="nm">Yuval Heffetz</span><span class="th">AutoML Tool for Pipelines Generation using Deep Reinforcement Learning and Hierarchical Actions Filtering</span><span class="co">with Gilad Katz</span></span></li><li><span class="y">2020</span><span><span class="nm">Amit Livne</span><span class="th">Deep Recommender Systems Utilizing Side Information</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2020</span><span><span class="nm">Daniel Marcous</span><span class="th">Geospatial Clustering for Big Data</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2020</span><span><span class="nm">Shani Cohen</span><span class="th">Machine-Learning for Optimization of Bacterial Strain Typing</span><span class="co">with Isana Veksler-Lublinsky and Jacob Moran-Gilad</span></span></li><li><span class="y">2020</span><span><span class="nm">Amit Magen</span><span class="th">Crime Linkage Based on Textual Hebrew Police Reports Utilizing Behavioral Patterns</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2020</span><span><span class="nm">Eliad Shem Tov</span><span class="th">Evolving context-aware recommender systems with users in mind</span><span class="co">with Achiya Elyasaf</span></span></li><li><span class="y">2020</span><span><span class="nm">Yoni Cohen</span><span class="th">F-PENN – Forest path encoding for neural networks</span><span class="co">with G. Katz</span></span></li><li><span class="y">2020</span><span><span class="nm">Doron Laadan</span><span class="th">AutoML: Meta Learning-Based Approach for Pre-Ranking Machine Learning Pipelines</span><span class="co">with G. Katz</span></span></li><li><span class="y">2020</span><span><span class="nm">Eran Bolless</span><span class="th">Name Entity Recongition in Machine Learning Related Papers</span></span></li><li><span class="y">2019</span><span><span class="nm">Adi Eisen</span><span class="th">Prediction of Cryptocurrency Price using Wikipedia Page Views</span></span></li><li><span class="y">2019</span><span><span class="nm">Shira Kadosh</span><span class="th">Denoising-Based Sentence Correction Approach for Proper Word Choice Based on Phrase Context</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2019</span><span><span class="nm">Ori Or-Meir</span><span class="th">Using Attention Mechanism to Enhance Malware Detection and Classification Based on Sequential System Call Analysis</span><span class="co">with N. Nissim and Y. Elovici</span></span></li><li><span class="y">2019</span><span><span class="nm">Adir Solomon</span><span class="th">Predict Demographic Information Using Word2vec on Spatial Trajectories</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2019</span><span><span class="nm">Itai Margolin</span><span class="th">Products Semantization Using Word Embedding and Its Applications</span><span class="co">with O. Maimon</span></span></li><li><span class="y">2019</span><span><span class="nm">Hananya Tannor</span><span class="th">Gradient Boosting Enhanced with Step-Wise Feature Augmentation</span><span class="co">with Boaz Patt-Shamir</span></span></li><li><span class="y">2019</span><span><span class="nm">Noy Cohen</span><span class="th">Model Recommendation Through Graphical Dataset Representation</span></span></li><li><span class="y">2019</span><span><span class="nm">Shir Kashi</span><span class="th">A machine-learning model for automatic detection of movement compensations in stroke patients</span><span class="co">with Boaz Lerner &amp; Shelly Levi-Tzedek</span></span></li><li><span class="y">2019</span><span><span class="nm">Hen Tzaban</span><span class="th">Automatic Product Bundle Identification on E-Commerce</span><span class="co">with Bracha Shapira</span></span></li><li><span class="y">2018</span><span><span class="nm">Israelevich Hanan</span><span class="th">Multiple Choice Question Answering</span><span class="co">with A. Shabtai</span></span></li><li><span class="y">2018</span><span><span class="nm">Yoav Shoham</span><span class="th">Machine Learning Algorithms for Compact Ensembles</span><span class="co">with Jonathan Rosenblatt</span></span></li><li><span class="y">2018</span><span><span class="nm">Eyal Peleg</span><span class="th">Minimizing the Use of Ineffective Medicinal Treatment in Parkinson&#x27;s Disease Patients Based on Cost Sensitive Classification of Medication Response</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2018</span><span><span class="nm">Tamar Meisels</span><span class="th">Automatic Detection of Political Perspective in News Articles</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2018</span><span><span class="nm">Ruben-Sacha Ohayon</span><span class="th">Semantic Embedding of Media Items for Addressing the Cold-Start Challenge</span><span class="co">with A. Armin</span></span></li><li><span class="y">2018</span><span><span class="nm">Michael Shkasta</span><span class="th">In Session Recommendation</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2018</span><span><span class="nm">Seffi Cohen</span><span class="th">Advanced Ensemble Learning</span><span class="co">with Mireille Avigal</span></span></li><li><span class="y">2018</span><span><span class="nm">Lahav Omri</span><span class="th">Image processing methods for malware detection in virtual machines</span><span class="co">with Y. Elovici</span></span></li><li><span class="y">2018</span><span><span class="nm">Avrahami Israeli</span><span class="th">Constraint Learning Based Gradient Boosting Trees</span><span class="co">with A. Shabtai</span></span></li><li><span class="y">2017</span><span><span class="nm">David Biton</span><span class="th">FSCOAL-Parallel Simultaneous Fuzzy Co Clustering and Learning</span><span class="co">with M. Kalech</span></span></li><li><span class="y">2017</span><span><span class="nm">Shahar Admati</span><span class="th">Wikibook-Bot - Automatic Generation of Wikipedia Book</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2017</span><span><span class="nm">Yael Brumer</span><span class="th">Predicting Relevance Scores for Triples using Neural Embedding</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2017</span><span><span class="nm">Moran Shwartz</span><span class="th">Continuous Cost Sensitive Active Learning in payment application</span><span class="co">with A. Shabtai</span></span></li><li><span class="y">2017</span><span><span class="nm">Saar Tal</span><span class="th">Personal Adaptive Cost-Aware Sensing for Context-Aware Applications</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2017</span><span><span class="nm">Yuval Lieberman-Avital</span><span class="th">Supervised learning of single-cell RNA sequencing datasets</span><span class="co">with Tal Shay</span></span></li><li><span class="y">2017</span><span><span class="nm">Niva Hazon Cohen</span><span class="th">Users Free-text request classification</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2017</span><span><span class="nm">Noa Roy Hubara</span><span class="th">NoSQL schema modeling</span><span class="co">with B. Shapira and P. Shoval</span></span></li><li><span class="y">2017</span><span><span class="nm">Tal Hadad</span><span class="th">User Feedback Analysis for Mobile Malware Detection</span><span class="co">with R. Puzis</span></span></li><li><span class="y">2016</span><span><span class="nm">Roman Vainshtein</span><span class="th">Automatic Assessment of Scientific Papers Quality</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2016</span><span><span class="nm">Liron Ben Kimon</span><span class="th">Continuous User Verification on Mobile Devices via Sequences of Touch Gestures</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2016</span><span><span class="nm">Eran Fainman</span><span class="th">Online Budgeted Learning for Classier Induction</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2015</span><span><span class="nm">Rada Fishel</span><span class="th">Meta-Recommender</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2015</span><span><span class="nm">Ido Blank</span><span class="th">Keywords Extraction from Papers</span><span class="co">with G. Shani</span></span></li><li><span class="y">2015</span><span><span class="nm">Adi Polak</span><span class="th">Anomaly Detection in Bipartite Graph with Complex Nodes</span></span></li><li><span class="y">2015</span><span><span class="nm">Eyal Machloof.</span><span class="th">Transfer Learning For Intrusion Detection</span></span></li><li><span class="y">2015</span><span><span class="nm">Moran Beladev</span><span class="th">Recommender Systems for Product Bundling</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2015</span><span><span class="nm">Dimitri Bekerman</span><span class="th">Cross-Malware detection</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2015</span><span><span class="nm">Nofar Dali</span><span class="th">Finding the Right Timing for Proactive Recommendations by Adopting Behavioral Patterns Using Smartphone-Sensed Context</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2015</span><span><span class="nm">Guy Shtar</span><span class="th">Clustering Wi-Fi Fingerprints for Indoor-Outdoor Detection</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2015</span><span><span class="nm">Yasmin Bokobza</span><span class="th">Harvest Leaked Information and Leakers Detection In Online Social Networks</span><span class="co">with B. Shapira and R. Puzis</span></span></li><li><span class="y">2014</span><span><span class="nm">Adi Ben-David</span><span class="th">Anomaly detection</span><span class="co">with D. Handler</span></span></li><li><span class="y">2014</span><span><span class="nm">Ortal Tovim</span><span class="th">Feature Selection for Anomaly Detection</span></span></li><li><span class="y">2013</span><span><span class="nm">Olga Peled</span><span class="th">Privacy Preserving in Social Networks</span><span class="co">with Y. Elovici</span></span></li><li><span class="y">2013</span><span><span class="nm">Orly Moreno</span><span class="th">Transfer Learning for Recommender Systems</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2013</span><span><span class="nm">Ayelet Urieli</span><span class="th">Survival Decision Trees</span><span class="co">with M. Kalech</span></span></li><li><span class="y">2013</span><span><span class="nm">Alexander Ostrikov</span><span class="th">Using geospatial metadata to boost collaborative filtering</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2012</span><span><span class="nm">Raz Wasserstein</span><span class="th">Limiting disclosure of sensitive data in sequential releases of databases</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2012</span><span><span class="nm">Shirly -Elena Freilikhman</span><span class="th">Exploring Cross domain recommendation accuracy</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2012</span><span><span class="nm">Robert Pinchevsky</span><span class="th">Anomaly detection in Time Series</span></span></li><li><span class="y">2012</span><span><span class="nm">Doron Oded</span><span class="th">Cognitive load awareness method for continues verification of users based on their keystroke dynamics</span><span class="co">with N. Tractinsky</span></span></li><li><span class="y">2012</span><span><span class="nm">Ma&#x27;ayan Gafny</span><span class="th">Supervised Many-to-Many Record Linkage</span><span class="co">with Y. Elovici</span></span></li><li><span class="y">2012</span><span><span class="nm">Naseem Biadsy</span><span class="th">Transfer Learning for Content-Based Recommender Systems using Tree Matching</span><span class="co">with A. Shmilovici</span></span></li><li><span class="y">2012</span><span><span class="nm">Maya Ilani</span><span class="th">Data Honey Pot for Leakage Detection</span><span class="co">with Y. Elovici</span></span></li><li><span class="y">2012</span><span><span class="nm">Amir Harel</span><span class="th">Misusability for Preventing Data Leakage</span><span class="co">with Y. Elovici</span></span></li><li><span class="y">2011</span><span><span class="nm">Nadav Marom</span><span class="th">Ensemble Methods</span><span class="co">with A.Shmilovici</span></span></li><li><span class="y">2011</span><span><span class="nm">Tomer Shimshon</span><span class="th">Activity Based Verifications</span><span class="co">with Y. Elovici</span></span></li><li><span class="y">2011</span><span><span class="nm">Ariel Bar</span><span class="th">Ensemble Methods for Collaborative Filtering</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2011</span><span><span class="nm">Yael Weiss</span><span class="th">Cost-Sensitive Feature Selection</span><span class="co">with Y. Elovici</span></span></li><li><span class="y">2010</span><span><span class="nm">Liat Antwarg</span><span class="th">Hierarchical HMM</span><span class="co">with B. Shapira</span></span></li><li><span class="y">2010</span><span><span class="nm">Adi Abramson</span><span class="th">Authentication approaches based on Applications order and keystrokes</span><span class="co">with Y. Elovici</span></span></li><li><span class="y">2010</span><span><span class="nm">Ehud Itach</span><span class="th">Ensemble Method for Multi-Label Classification</span></span></li><li><span class="y">2009</span><span><span class="nm">Slava Kisilevich</span><span class="th">New approach for achieving k-anonymity in privacy preserving data mining</span><span class="co">with B. Shapira, Y. Elovici</span></span></li><li><span class="y">2009</span><span><span class="nm">Nissim Matatov</span><span class="th">(Tel-Aviv University), Feature Set Decomposition for Privacy Preserving Data Mining</span><span class="co">with Oded Maimon</span></span></li><li><span class="y">2009</span><span><span class="nm">Dan Hutter</span><span class="th">Automatic discovery of the root causes for quality drift in high dimensionality manufacturing processes</span></span></li><li><span class="y">2008</span><span><span class="nm">Eitan Menachem</span><span class="th">Troika – New Classifiers Ensemble Scheme for Risk Weighting</span><span class="co">with Y. Elovici</span></span></li><li><span class="y">2008</span><span><span class="nm">Lihi Namani</span><span class="th">Cost Sensitive Active Learning of Decision Trees</span><span class="co">with A. Shmilovici</span></span></li><li><span class="y">2008</span><span><span class="nm">Lior Sapir</span><span class="th">A Methodology for Fuzzy Data Warehousing</span><span class="co">with A. Shmilovici</span></span></li><li><span class="y">2007</span><span><span class="nm">Dimitry Getsels</span><span class="th">Preferences Elicitation for Stereotype-Based Recommender Systems Using Analytical Hierarchal Procedure</span></span></li><li><span class="y"></span><span><span class="nm">Edita Grolman</span><span class="th">Scalable Transfer Learning Methods based on Patterns Sharing</span><span class="co">with B. Shapira</span></span></li></ul>
+      </div>
+    </details>
+    <details class="roster">
+      <summary>Postdoctoral fellows, M.D. fellows and visitors <small>9</small></summary>
+      <div class="roster-body"><ul class="roster-list"><li><span class="y"></span><span><span class="nm">Dr. Alon Schclar</span><span class="th">Postdoctoral fellow (Ph.D., Tel Aviv University)</span></span></li><li><span class="y"></span><span><span class="nm">Dr. Moti Zwilling</span><span class="th">Postdoctoral fellow (Ph.D., Hebrew University)</span></span></li><li><span class="y"></span><span><span class="nm">Dr. Nir Nissim</span><span class="th">Postdoctoral fellow (Ph.D., BGU)</span></span></li><li><span class="y"></span><span><span class="nm">Prof. Prasenjit Mitra</span><span class="th">Visiting scholar, Penn State University</span></span></li><li><span class="y"></span><span><span class="nm">Louise Azulay Palavecino</span><span class="th">Sandwich Ph.D. student, Universidade Federal Fluminense</span></span></li><li><span class="y"></span><span><span class="nm">Shelly Ben-David</span><span class="th">Summer intern, MIT</span></span></li><li><span class="y"></span><span><span class="nm">Dr. Denis Paley</span><span class="th">M.D. fellow, co-supervised with Prof. Tamar Tadmor (Bnai Zion Medical Center)</span></span></li><li><span class="y"></span><span><span class="nm">Dr. Lior Kerber</span><span class="th">M.D. fellow, co-supervised with Prof. Offer Erez (Soroka Medical Center)</span></span></li><li><span class="y"></span><span><span class="nm">Dr. Rain Asulin</span><span class="th">M.D. fellow, co-supervised with Prof. Eitan Lunenfeld (Soroka Medical Center); predicting IVF outcomes after TESE</span></span></li></ul></div>
+    </details>
+  </div>
+</section>
+
+<!-- ===================== TALKS & TEACHING ===================== -->
+<section id="talks" aria-labelledby="talks-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">Talks and teaching</p>
+      <h2 id="talks-h">Talks, videos and courses</h2>
+    </div>
+    <div class="talks"><a class="talk" href="https://www.youtube.com/watch?v=3JvEI8eVJyE" target="_blank" rel="noopener"><div class="thumb"><img src="assets/img/talks/davos-wef.jpg" width="264" height="176" loading="lazy" alt=""><span class="play">Video</span></div><h3>Adversarial Machine Learning</h3><p>World Economic Forum, Davos, 2018</p></a><a class="talk" href="https://www.youtube.com/watch?v=-MoX-lmn2E4" target="_blank" rel="noopener"><div class="thumb"><img src="assets/img/talks/recsys-20y.jpg" width="264" height="176" loading="lazy" alt=""><span class="play">Video</span></div><h3>Recommender Systems: Twenty Years of Research</h3><p>IHÉS, Université Paris-Saclay, 2018</p></a><a class="talk" href="https://youtu.be/BMAWImf4ZoY?t=2898" target="_blank" rel="noopener"><div class="thumb"><img src="assets/img/talks/deep-learning-revolution.jpg" width="264" height="176" loading="lazy" alt=""><span class="play">Video</span></div><h3>The Deep Learning Revolution</h3><p>Tel Aviv University</p></a><a class="talk" href="https://www.youtube.com/watch?v=4gPAeVEiz1I&amp;t=44m12s" target="_blank" rel="noopener"><div class="thumb"><img src="assets/img/talks/political-stance.jpg" width="264" height="176" loading="lazy" alt=""><span class="play">Video</span></div><h3>Inferring a Person’s Political Stance from Social Networks</h3><p>BGU Board of Governors, 2019</p></a><a class="talk" href="https://www.youtube.com/watch?v=AZCBEGXRig8" target="_blank" rel="noopener"><div class="thumb"><img src="assets/img/talks/decision-forest.jpg" width="264" height="176" loading="lazy" alt=""><span class="play">Video</span></div><h3>Decision Forest: Twenty Years of Research</h3><p>Data Mining for Business Intelligence, BGU</p></a><a class="talk" href="https://www.youtube.com/watch?v=gfUHxLEZVZw" target="_blank" rel="noopener"><div class="thumb"><img src="assets/img/talks/data-science.jpg" width="264" height="176" loading="lazy" alt=""><span class="play">Video</span></div><h3>Data Science as an Emerging Multidisciplinary Field</h3><p>Data Mining for Business Intelligence, BGU, 2013</p></a><a class="talk" href="https://www.youtube.com/watch?v=PZBXDNo1GQw" target="_blank" rel="noopener"><div class="thumb"><img src="assets/img/talks/transfer-learning.jpg" width="264" height="176" loading="lazy" alt=""><span class="play">Video</span></div><h3>Transfer Learning for Collaborative Recommender Systems</h3><p>Invited talk</p></a><a class="talk" href="https://www.youtube.com/watch?v=Ju1w3Jed4nU" target="_blank" rel="noopener"><div class="thumb"><img src="assets/img/talks/intro-ml.jpg" width="264" height="176" loading="lazy" alt=""><span class="play">Video</span></div><h3>Introduction to Machine Learning</h3><p>Lecture</p></a><a class="talk" href="https://www.slideshare.net/liorrokach/ensemble-learning-the-wisdom-of-crowds-of-machines" target="_blank" rel="noopener"><div class="thumb"><img src="assets/img/talks/ensemble.jpg" width="264" height="176" loading="lazy" alt=""><span class="play">Slides</span></div><h3>Ensemble Learning: The Wisdom of Crowds (of Machines)</h3><p>Tutorial</p></a><a class="talk" href="https://www.slideshare.net/liorrokach/recommender-systems-13809014" target="_blank" rel="noopener"><div class="thumb"><img src="assets/img/talks/recsys.jpg" width="264" height="176" loading="lazy" alt=""><span class="play">Slides</span></div><h3>Recommender Systems</h3><p>Tutorial</p></a><a class="talk" href="https://www.slideshare.net/liorrokach/cyber-securityshort" target="_blank" rel="noopener"><div class="thumb"><img src="assets/img/talks/cyber-ml.jpg" width="264" height="176" loading="lazy" alt=""><span class="play">Slides</span></div><h3>When Cyber Security Meets Machine Learning</h3><p>Invited talk</p></a><a class="talk" href="https://www.slideshare.net/liorrokach/publish-or-perish-towards-a-ranking-of-scientists-using-bibliographic-data-mining" target="_blank" rel="noopener"><div class="thumb"><img src="assets/img/talks/publish-perish.jpg" width="264" height="176" loading="lazy" alt=""><span class="play">Slides</span></div><h3>Publish or Perish: Ranking Scientists with Bibliographic Data Mining</h3><p>Invited talk</p></a></div>
+
+    <h3 class="col-h" style="margin-top:3rem">Teaching</h3>
+    <div class="courses">
+      <article class="course-card">
+        <span class="lvl">Graduate course &middot; BGU</span>
+        <h4>Advanced Artificial Intelligence for Medicine</h4>
+        <div class="course-links"><a href="https://moodle.bgu.ac.il/moodle/course/view.php?id=64568" target="_blank" rel="noopener">Course site (Moodle) ↗</a></div>
+      </article>
+      <article class="course-card">
+        <span class="lvl">Graduate course &middot; BGU</span>
+        <h4>Applied Machine Learning</h4>
+        <div class="course-links"><a href="https://moodle.bgu.ac.il/moodle/course/view.php?id=67849" target="_blank" rel="noopener">Course site (Moodle) ↗</a><a href="https://www.youtube.com/playlist?list=PL7APM8kdz5hNs4R00bWzfRWe5bVnMJjw8" target="_blank" rel="noopener">Video lectures ↗</a></div>
+      </article>
+      <article class="course-card">
+        <span class="lvl">Undergraduate course &middot; BGU</span>
+        <h4>Database Management Systems</h4>
+        <div class="course-links"><a href="https://moodle.bgu.ac.il/moodle/course/view.php?id=51732" target="_blank" rel="noopener">Course site (Moodle) ↗</a><a href="https://www.youtube.com/playlist?list=PL7APM8kdz5hOQJok21R6T21xHoIDKaEja" target="_blank" rel="noopener">Video lectures ↗</a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section id="contact" class="contact" aria-labelledby="contact-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">Contact</p>
+      <h2 id="contact-h">Get in touch</h2>
+    </div>
+    <div class="contact-grid">
+      <div>
+        <p class="muted">E-mail</p>
+        <div class="email-row"><span class="email" id="email-text">liorrk@bgu.ac.il</span><button type="button" class="btn btn-ghost" id="copy-email">Copy address</button></div>
+        <address>
+          Prof. Lior Rokach<br>
+          Institute for Applied AI Research<br>
+          Faculty of Computer and Information Science<br>
+          Ben-Gurion University of the Negev<br>
+          P.O.B. 653, Beer-Sheva 8410501, Israel
+        </address>
+        <p class="prospective">Prospective graduate students and postdoctoral fellows are welcome to write with a CV, transcripts and a short description of their research interests.</p>
+      </div>
+      <div>
+        <p class="muted" style="margin-bottom:.8rem">Profiles</p>
+        <div class="profiles">
+          <a href="https://scholar.google.com/citations?user=makfxEUAAAAJ" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3 1 9l11 6 9-4.9V17h2V9L12 3zm-6.5 9.7V16c0 1.7 2.9 4 6.5 4s6.5-2.3 6.5-4v-3.3L12 16.3l-6.5-3.6z"/></svg>Google Scholar</a>
+          <a href="https://dblp.org/search?q=Lior+Rokach" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 4h9a5 5 0 0 1 0 10H5zM5 14v6"/></svg>DBLP</a>
+          <a href="https://www.linkedin.com/in/liorrokach" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5A2.5 2.5 0 1 1 5 8.5a2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.2c0-1.2 0-2.9-1.8-2.9s-2 1.4-2 2.8V21h-4z"/></svg>LinkedIn</a>
+          <a href="https://www.researchgate.net/profile/Lior_Rokach" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 16V8h3a2 2 0 0 1 0 4H8m3 0 3 4"/></svg>ResearchGate</a>
+          <a href="https://x.com/liorrokach" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.8 3h3.1l-6.8 7.8L22 21h-6.3l-4.9-6.4L5.2 21H2l7.3-8.4L2 3h6.4l4.4 5.8zM16.7 19.2h1.7L7.4 4.7H5.6z"/></svg>X (Twitter)</a>
+          <a href="https://www.youtube.com/results?search_query=%22Lior+Rokach%22" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 8.2a3 3 0 0 0-2.1-2.1C18 5.6 12 5.6 12 5.6s-6 0-7.9.5A3 3 0 0 0 2 8.2 31 31 0 0 0 1.6 12 31 31 0 0 0 2 15.8a3 3 0 0 0 2.1 2.1c1.9.5 7.9.5 7.9.5s6 0 7.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .4-3.8 31 31 0 0 0-.4-3.8zM10 15V9l5.2 3z"/></svg>YouTube talks</a>
+          <a href="https://he.wikipedia.org/wiki/%D7%9C%D7%99%D7%90%D7%95%D7%A8_%D7%A8%D7%95%D7%A7%D7%97" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg>Wikipedia (Hebrew)</a>
+          <a href="https://www.amazon.com/Lior-Rokach/e/B001HCZUKA" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></svg>Books on Amazon</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>&copy; 2026 Lior Rokach &middot; Ben-Gurion University of the Negev</span>
+    <span>Last updated October 2026 &middot; <a href="#top">Back to top</a></span>
+  </div>
+</footer>
+
+<script src="data/publications.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
