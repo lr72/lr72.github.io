@@ -118,7 +118,7 @@
   var canvas = document.getElementById("net");
   if (canvas && canvas.getContext) {
     var ctx = canvas.getContext("2d");
-    var W = 0, H = 0, dpr = 1, nodes = [], layers = [], edges = [], pulses = [], running = false, visible = true, t0 = 0;
+    var W = 0, H = 0, dpr = 1, nodes = [], layers = [], edges = [], pulses = [], running = false, visible = true, t0 = 0, raf = 0;
     var pointer = { x: -1e4, y: -1e4 };
     var TEAL = [43, 208, 196], VIOLET = [141, 124, 248];
     function mix(a, b, t) { return [a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t, a[2] + (b[2] - a[2]) * t]; }
@@ -208,10 +208,10 @@
         ctx.fillStyle = rgba(n.c, (0.55 + 0.45 * n.glow) * al);
         ctx.beginPath(); ctx.arc(n.x, n.y, r, 0, 6.283); ctx.fill();
       });
-      requestAnimationFrame(frame);
+      raf = requestAnimationFrame(frame);
     }
-    function start() { if (running || reduceMotion || !visible || document.hidden) return; running = true; t0 = performance.now(); requestAnimationFrame(frame); }
-    function stop() { running = false; }
+    function start() { if (running || reduceMotion || !visible || document.hidden) return; running = true;  t0 = performance.now(); raf = requestAnimationFrame(frame); }
+    function stop() { running = false; cancelAnimationFrame(raf); }
     function staticFrame() {
       // one still frame, used for reduced motion
       running = true; for (var k = 0; k < 40; k++) spawn(); pulses.forEach(function (p) { p.t = Math.random(); p.v = 0; });
