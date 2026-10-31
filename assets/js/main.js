@@ -199,11 +199,11 @@
         }
       }
       nodes.forEach(function (n) {
-        var al = alphaAt(n.x), r = 2.4 + n.glow * 2.2;
+        var al = alphaAt(n.x),    r = 4.5 + n.glow * 3;
         if (n.glow > 0.05) {
-          var gr = ctx.createRadialGradient(n.x, n.y, 0, n.x, n.y, 18 * n.glow + 4);
+          var gr = ctx.createRadialGradient(n.x, n.y, 0, n.x, n.y, 26 * n.glow + 8 );
           gr.addColorStop(0, rgba(n.c, 0.45 * n.glow * al)); gr.addColorStop(1, rgba(n.c, 0));
-          ctx.fillStyle = gr; ctx.beginPath(); ctx.arc(n.x, n.y, 18 * n.glow + 4, 0, 6.283); ctx.fill();
+          ctx.fillStyle = gr; ctx.beginPath(); ctx.arc(n.x, n.y, 26 * n.glow + 8, 0, 6.283); ctx.fill();
         }
         ctx.fillStyle = rgba(n.c, (0.55 + 0.45 * n.glow) * al);
         ctx.beginPath(); ctx.arc(n.x, n.y, r, 0, 6.283); ctx.fill();
